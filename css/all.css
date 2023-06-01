@@ -1,0 +1,25 @@
+section.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: #01120a; */
+    /* background-color: #0b994e; */
+    background: linear-gradient(to left, #0b994e 50%,  #01120a 50%);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section.header li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px;    
+    padding: 2px;
+}
+
+section.header ul {
+    margin: 0px 15px;
+}
