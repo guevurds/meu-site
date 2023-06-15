@@ -4,8 +4,9 @@ section.header {
     justify-content: space-between;
     /* background-color: #01120a; */
     /* background-color: #0b994e; */
-    background: linear-gradient(to left, #0b994e 50%,  #01120a 50%);
     color: white;
+    padding: 10px 15px;
+    box-sizing: border-box;
 }
 
 a {
@@ -18,8 +19,21 @@ section.header li {
     display: inline-block;
     margin: 0px 8px;    
     padding: 2px;
+    font-size: 18px;
+}
+
+section.header li a:hover {
+    color: #fff;
 }
 
 section.header ul {
     margin: 0px 15px;
+}
+
+section.header .logotipo {
+    font-size: 30px;
+}
+
+body {
+    background: linear-gradient(to left, #0b994e 50%,  #01120a 50%);
 }
