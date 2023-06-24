@@ -1,0 +1,27 @@
+.foto-minha {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 30%;
+}
+
+.pai-text, .pai-foto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    width: 80%;
+    font-size: 16px;
+    color: white;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

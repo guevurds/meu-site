@@ -1,0 +1,49 @@
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.content-cima {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-baixo {
+    margin-top: 30px;
+}
+
+.about-this {
+    width: 400px;
+    height: 250px;
+    background-color: #05592c;
+}
+
+.image-cat {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+}
+
+.cat-projetos { 
+    background-image: url("https://img.quizur.com/f/img608ca36aecec56.13144365.jpg?lastEdited=1619829622");
+    background-position-y:-45px;
+}
+
+.cat-jogos {
+    background-image: url("https://media.tenor.com/rkY5QA5c3VAAAAAC/gato-digitando.gif");
+    background-position-y:-90px;
+}
+.carousel {
+    display: flex;
+}
+.carousel-item {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    margin: 0px calc((50% - 400px)/2);
+}      

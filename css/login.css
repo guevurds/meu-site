@@ -1,0 +1,7 @@
+body {
+    transition: --percentage1, 500ms;
+}
+
+body.login {
+    --percentage1: 70%
+}
